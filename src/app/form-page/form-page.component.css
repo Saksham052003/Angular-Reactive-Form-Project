@@ -1,0 +1,54 @@
+.form-container {
+    background: linear-gradient(135deg, #e3edf6, #82cbda); /* Gradient background */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+    margin: 50px auto;
+    max-width: 500px;
+    border: 1px solid #d1d1d1; /* Subtle border for a cleaner look */
+    transition: transform 0.3s ease-in-out; /* Smooth scaling on hover */
+}
+
+.form-container:hover {
+    transform: scale(1.02); /* Slight scaling on hover for interaction */
+}
+
+.form-group {
+    margin-bottom: 25px; /* Increased spacing for clarity */
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px; /* More space between label and input */
+    font-weight: 700; /* Bolder font for labels */
+    color: #333; /* Darker color for better contrast */
+}
+
+.error-message {
+    color: #e74c3c;
+    font-size: 14px;
+    margin-top: 5px;
+    animation: fadeIn 0.5s ease-in-out; /* Animation for error message */
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.submit-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px; /* Slightly larger font */
+    border-radius: 8px;
+    background: linear-gradient(135deg, #3498db, #2980b9); /* Gradient for button */
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.submit-button:hover {
+    background: linear-gradient(135deg, #2980b9, #1e6b8e); /* Darker shade on hover */
+    transform: translateY(-2px); /* Button rises slightly on hover */
+}

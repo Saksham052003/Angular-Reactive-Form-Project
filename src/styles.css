@@ -1,1 +1,65 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9bcafb; /* Lighter background for contrast */
+}
+
+h1, h2, h3 {
+    margin: 0;
+    padding: 10px;
+    color: #2c3e50;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+button {
+    background: linear-gradient(135deg, #007bff, #0056b3); /* Gradient for buttons */
+    color: #ffffff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #0056b3, #003d80); /* Darker shade on hover */
+    transform: translateY(-2px);
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    transition: border-color 0.3s ease; /* Smooth transition for focus effect */
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #3498db; /* Blue border on focus */
+    outline: none; /* Removes default outline */
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .form-container,
+    .display-container {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    button, input, select, textarea {
+        padding: 12px;
+    }
+}
