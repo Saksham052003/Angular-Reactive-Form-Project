@@ -1,5 +1,6 @@
 # Angular Reactive Form Project
 This Angular project showcases a reactive form with multiple input fields, form validation, and data handling. The submitted data is displayed on a separate page, with an option to refresh and navigate back to the form. The project is styled for a modern look using CSS, including animations, gradients, and responsive design.
+Live website: https://main--angularreactiveformproject.netlify.app/
 
 ## Features
 - **Reactive Form:** Implementation of Angular reactive forms with built-in validations.
